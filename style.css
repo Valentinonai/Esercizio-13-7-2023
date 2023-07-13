@@ -5,6 +5,7 @@ body {
   background-image: radial-gradient(rgb(123, 121, 226), rgb(72, 67, 217));
   background-repeat: no-repeat;
   height: 100vh;
+  min-width: 900px;
 }
 
 h1 {
@@ -28,7 +29,7 @@ h1 {
 }
 
 #generaNumero {
-  margin: 20px auto;
+  margin: 10px auto;
   width: 250px;
   height: 40px;
   border-radius: 20px;
@@ -39,9 +40,6 @@ h1 {
   background-color: #0a0a2300;
   box-shadow: 5px 5px 5px rgb(13, 13, 13);
 }
-#cartelle {
-  height: 150px;
-}
 
 .cellaNumero {
   display: flex;
@@ -51,7 +49,6 @@ h1 {
   width: 8%;
   height: 8%;
   margin: 3px;
-  border: 1px solid transparent;
   border-radius: 5px;
 }
 
@@ -63,32 +60,28 @@ h1 {
 .celleGiocatore {
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: 12%;
-  height: 12%;
+  justify-items: center;
+  width: 20px;
+  height: 20px;
   margin: 3px;
-  border: 1px solid transparent;
   border-radius: 5px;
   color: white;
 }
 
-h4 {
-  margin: 0;
-  padding: 0;
-}
 .cellaNumeroEstratta {
   color: red;
   border: red;
 }
 
 .tabella {
-  background-color: rgb(111, 19, 216);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-content: space-between;
+  padding-block-start: 10px;
+  background-color: rgb(111, 19, 216);
   border-radius: 20px;
   width: 150px;
   height: 150px;
-  margin: 50px;
+  margin: 20px;
+  margin-block-start: 0;
 }
