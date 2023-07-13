@@ -4,7 +4,7 @@ body {
   text-align: center;
   background-image: radial-gradient(rgb(123, 121, 226), rgb(72, 67, 217));
   background-repeat: no-repeat;
-  height: 100vh;
+  /* height: 100vh; */
   min-width: 900px;
 }
 
@@ -55,6 +55,7 @@ h1 {
 #cartelle {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .celleGiocatore {
