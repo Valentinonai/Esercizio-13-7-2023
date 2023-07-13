@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding-block: 20px;
+  text-align: center;
+  background-image: radial-gradient(rgb(123, 121, 226), rgb(72, 67, 217));
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+h1 {
+  margin: 0 auto;
+  font-size: 72px;
+  font-style: oblique;
+}
+
+#contenitoreTombola {
+  margin-block: 15px;
+  padding-block-start: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  background-color: rgb(21, 8, 142);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(57, 56, 56);
+}
+
+#generaNumero {
+  margin: 20px auto;
+  width: 250px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 20px;
+  color: rgb(177, 0, 0);
+  border: 1px solid black;
+  cursor: pointer;
+  background-color: #0a0a2300;
+  box-shadow: 5px 5px 5px rgb(13, 13, 13);
+}
+#cartelle {
+  height: 150px;
+}
+
+.cellaNumero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 8%;
+  height: 8%;
+  margin: 3px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+#cartelle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.celleGiocatore {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 12%;
+  height: 12%;
+  margin: 3px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  color: white;
+}
+
+h4 {
+  margin: 0;
+  padding: 0;
+}
+.cellaNumeroEstratta {
+  color: red;
+  border: red;
+}
+
+.tabella {
+  background-color: rgb(111, 19, 216);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+  border-radius: 20px;
+  width: 150px;
+  height: 150px;
+  margin: 50px;
+}
