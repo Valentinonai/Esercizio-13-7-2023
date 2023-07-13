@@ -2,7 +2,7 @@ const numCelle = 76;
 const contenitoreTombola = document.getElementById("contenitoreTombola");
 let numeriEstratti = [];
 let tabellaGiocatore = [];
-let numeroTabelle = window.prompt("Quante cartelle vuoi selezionare (seeleziona un numero tra 0 e 4)");
+let numeroTabelle = window.prompt("Quante cartelle vuoi selezionare");
 numeroTabelle = parseInt(numeroTabelle);
 if (numeroTabelle < 0) {
   alert("Numero tabelle non valido");
