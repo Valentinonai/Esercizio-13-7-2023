@@ -22,7 +22,7 @@ for (let i = 0; i < numCelle; i++) {
   cella.appendChild(h3);
   contenitoreTombola.appendChild(cella);
 }
-
+//! Accendi numero cartella giocatore
 const accendiGiocatore = (N) => {
   const celle = document.getElementsByClassName("celleGiocatore");
   for (let i = 0; i < celle.length; i++) {
